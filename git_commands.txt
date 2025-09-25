@@ -3,3 +3,15 @@ git status
 git add 
 git commit - git commit -m "comment are compulsory"
 git restore - to restore file if removed
+
+git local to github throgh Personal Access Token(PAT
+Create a new repository on git hub
+ Add this create github repository on VS code(Local)
+  git remote add origin https://github.com/ranjita606-GitRep/GitDevOps-New
+ Once added it , create PAT (Personal access token) for access the Github repository
+  In Github go to user profile- settings -Developer settings -Personal access tokens -Token(Classic)
+   Once token generated -- git remote set-url origin https://Token@github.com/ranjita606-GitRep/GitDevOps-New       
+
+Check git status
+Can push loacal code to github
+git push or
